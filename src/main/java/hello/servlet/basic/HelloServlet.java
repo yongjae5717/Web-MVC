@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet(name = "helloServlet", urlPatterns = "/hello")
-public class helloServlet extends HttpServlet {
+public class HelloServlet extends HttpServlet {
 
     //서블릿이 호출되면 이 메서드가 호출이된다.
     @Override
